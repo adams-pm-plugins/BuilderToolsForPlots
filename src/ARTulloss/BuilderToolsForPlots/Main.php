@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener {
 
 	public function onBuilderTools(BuilderToolsEvent $event): void{
 	    $player = $event->getPlayer();
-        if ($player->hasPermission("myplot.admin.build")) return;
+        if ($player->hasPermission("myplot.admin.build") || $player->hasPermission("buildertoolsforplots.bypass")) return;
 	    $pos1 = $event->getPos1();
 	    $pos2 = $event->getPos2();
 	    $myplot = MyPlot::getInstance();

@@ -5,3 +5,6 @@ api: 3.0.0
 author: ARTulloss
 description: Restrict builder tools to plots only
 website: https://github.com/artulloss
+permissions:
+  buildertoolsforplots.bypass:
+    default: op

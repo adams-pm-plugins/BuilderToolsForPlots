@@ -1,5 +1,5 @@
 # BuilderToolsForPlots
-BuilderTools with MyPlot support, must use my version of MyPlot
+BuilderTools with MyPlot support, must use my version of [BuilderTools](https://github.com/adams-pm-plugins/BuilderTools)
 
 Supported commands
 

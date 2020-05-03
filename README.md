@@ -10,7 +10,7 @@ Merge
 Move
 Naturalize
 Outline
-Paste ?
+Paste
 Wand
 Pos1
 Pos2
